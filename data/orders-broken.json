@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ord_2001",
+    "status": "refunded",
+    "customer": { "name": "Дина", "email": "dina@example.com" },
+    "items": [{ "title": "Лампа", "price": 199000, "quantity": 1 }]
+  },
+  {
+    "id": "ord_2002",
+    "status": "new",
+    "customer": { "name": "Егор" },
+    "items": [{ "title": "Плед", "price": "2490.00", "quantity": 1 }]
+  }
+]

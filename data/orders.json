@@ -1,0 +1,35 @@
+[
+  {
+    "id": "ord_1001",
+    "status": "new",
+    "customer": { "name": "Анна", "email": "Anna@Example.com" },
+    "items": [{ "title": "Кружка", "price": 49000, "quantity": 2 }]
+  },
+  {
+    "id": "ord_1002",
+    "status": "paid",
+    "paidAt": "2026-10-01",
+    "customer": { "name": "Борис", "email": null },
+    "items": [
+      { "title": "Футболка", "price": 129000, "quantity": 1 },
+      { "title": "Носки", "price": 25000, "quantity": 3 }
+    ],
+    "promoCode": "WELCOME10"
+  },
+  {
+    "id": "ord_1003",
+    "status": "shipped",
+    "paidAt": "2026-10-02",
+    "trackingNumber": "RU123456789",
+    "customer": { "name": "Вера", "email": "vera@example.com" },
+    "items": [{ "title": "Рюкзак", "price": 359000, "quantity": 1 }],
+    "promoCode": "SUMMER"
+  },
+  {
+    "id": "ord_1004",
+    "status": "cancelled",
+    "reason": "Покупатель передумал",
+    "customer": { "name": "Глеб", "email": "gleb@example.com" },
+    "items": [{ "title": "Зонт", "price": 89000, "quantity": 1 }]
+  }
+]

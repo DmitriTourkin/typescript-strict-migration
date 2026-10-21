@@ -1,0 +1,25 @@
+{
+  "name": "typescript-strict-migration",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Учебный проект: миграция JavaScript на строгий TypeScript",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run typecheck && npm test",
+    "dev": "vite",
+    "start": "vite"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "happy-dom": "^21.0.4",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.7",
+    "vitest": "^3.2.4"
+  }
+}
