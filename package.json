@@ -13,7 +13,8 @@
     "test:watch": "vitest",
     "check": "npm run typecheck && npm test",
     "dev": "vite",
-    "start": "vite"
+    "start": "vite",
+    "test:types": "vitest run --typecheck.only"
   },
   "devDependencies": {
     "@types/node": "^20.19.0",
